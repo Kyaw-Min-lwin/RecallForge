@@ -1,0 +1,177 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RecallForge · Learn what sticks</title><style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial;background:#0b101e;color:#eef2ff;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 60% -35%,#283b61 0%,transparent 65%),#0b101e}button,input,textarea{font:inherit}button{cursor:pointer}.layout{display:grid;grid-template-columns:246px minmax(0,1fr);min-height:100vh}.sidebar{background:#101728aa;border-right:1px solid #293047;padding:29px 20px;display:flex;flex-direction:column;gap:28px}.logo{display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px;letter-spacing:-.6px}.mark{display:grid;place-items:center;width:36px;height:36px;background:#a58cff;border-radius:11px;color:#141025;font-size:21px;box-shadow:0 0 28px #8466ee66}.tiny{color:#8f9bb5;font-size:11px;text-transform:uppercase;letter-spacing:2px;font-weight:750}.nav{display:grid;gap:9px}.nav button{text-align:left;border:1px solid transparent;border-radius:12px;padding:13px 14px;background:transparent;color:#9ca9c0}.nav button.active{background:#242542;color:#e5dfff;border-color:#3e3b66}.nav button:hover{background:#252e42;color:white}.sidestat{margin-top:auto;background:#1a2235;border:1px solid #2d3750;border-radius:16px;padding:16px;color:#bbc4d6;font-size:13px;line-height:1.65}.sidestat strong{color:#e7edff}.main{max-width:1300px;width:100%;margin:auto;padding:42px 52px}.top{display:flex;justify-content:space-between;align-items:center;gap:16px}.eyebrow{font-size:12px;color:#a69cf7;font-weight:800;letter-spacing:2px;text-transform:uppercase}.pill{border:1px solid #3a4561;border-radius:99px;padding:9px 14px;color:#a6b5cd;font-size:12px;display:flex;align-items:center;gap:8px}.dot{height:7px;width:7px;background:#37d9ae;border-radius:50%}.hero{padding:40px 0 30px}.hero h1{font-size:clamp(32px,5vw,54px);line-height:1.11;letter-spacing:-2.5px;margin:10px 0 14px}.gradient{background:linear-gradient(100deg,#b6a3ff,#7ee8d1);color:transparent;background-clip:text}.hero p{color:#9aa8c0;max-width:650px;font-size:16px;line-height:1.65}.grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(280px,1fr);gap:20px}.panel{background:#161e30;border:1px solid #2c3650;border-radius:22px;padding:25px;box-shadow:0 18px 44px #05081340}.panel h2{font-size:18px;margin:0 0 5px;letter-spacing:-.4px}.sub{color:#8493ad;font-size:13px;margin:0 0 23px;line-height:1.5}.label{font-size:12px;color:#aebbd3;font-weight:700;display:block;margin-bottom:9px}input,textarea{width:100%;border:1px solid #3a4761;border-radius:12px;background:#0e1525;color:#f0f2ff;outline:none;padding:14px 15px}input:focus,textarea:focus{border-color:#9e91ee}textarea{resize:vertical;min-height:95px}input::placeholder,textarea::placeholder{color:#63728e}.row{display:flex;gap:10px;align-items:center}.btn{border:none;border-radius:12px;background:#a68df7;color:#120f2c;font-weight:750;padding:13px 18px;transition:transform .15s,opacity .15s}.btn:hover{transform:translateY(-1px)}.btn:disabled{opacity:.5;cursor:wait}.secondary{background:#2a334d;color:#e2e8fa}.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 19px}.chip{background:#232b43;border:1px solid #3d4661;border-radius:99px;color:#b9c7e3;font-size:12px;padding:8px 12px}.chip:hover{border-color:#a68df7}.output{min-height:120px;max-height:350px;overflow:auto;padding:16px;border:1px solid #303b55;background:#101828;border-radius:14px;color:#d8e1f5;line-height:1.7;font-size:14px;white-space:pre-wrap;margin:18px 0}.output:empty:before{content:'Your AI study coach is ready. Ask a question to begin.';color:#7383a1}.quiz{margin-top:20px}.quiz p{white-space:pre-wrap;color:#e1e9fc;line-height:1.7;font-size:14px}.answers{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:17px}.answers button{background:#242e47;color:#dce6f8;border:1px solid #3c4a68;border-radius:12px;padding:12px}.answers button.chosen{border-color:#a68df7;background:#37335c}.note{font-size:12px;line-height:1.6;color:#7f8da8;margin-top:14px}.feedback{background:#162e36;border:1px solid #2d6469;border-radius:12px;padding:13px;margin-top:16px;color:#d7f6e9;font-size:13px;line-height:1.6;white-space:pre-wrap}.error{color:#ffbdbe;background:#3b222d;border:1px solid #76404b;padding:11px;border-radius:10px;margin-top:12px;font-size:13px}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0 0 20px}.metric{background:#161e30;border:1px solid #2c3650;border-radius:17px;padding:18px}.metric b{font-size:27px;display:block;margin:4px 0}.metric span{color:#8f9db8;font-size:12px}.footer{margin-top:25px;color:#71829e;font-size:12px}.hidden{display:none!important}@media(max-width:1000px){.main{padding:25px}.grid{grid-template-columns:1fr}.sidebar{padding:22px 12px}.layout{grid-template-columns:185px 1fr}}@media(max-width:650px){.layout{display:block}.sidebar{padding:15px;gap:12px;border-right:0;border-bottom:1px solid #293047}.nav{display:flex}.nav button{padding:9px}.sidestat{display:none}.main{padding:20px}.hero{padding:25px 0 15px}.metrics{gap:7px}.metric{padding:11px}.metric b{font-size:21px}.panel{padding:18px}.answers{grid-template-columns:repeat(2,1fr)}}
+.chip[aria-pressed="true"]{border-color:#a68df7}.dot{background:#e7b468}.configured .dot{background:#37d9ae}button:disabled{cursor:default}#error{position:fixed;right:22px;bottom:22px;z-index:2;max-width:min(480px,calc(100% - 44px));box-shadow:0 6px 25px #05081380}
+</style></head><body><div class="layout"><aside class="sidebar"><div class="logo"><span class="mark">✦</span> RecallForge</div><div><div class="tiny" style="margin-bottom:15px">WORKSPACE</div><div class="nav"><button class="active" onclick="document.getElementById('tutor').scrollIntoView({behavior:'smooth'})">✧ &nbsp; AI Tutor</button><button onclick="document.getElementById('quizPanel').scrollIntoView({behavior:'smooth'})">◈ &nbsp; Practice</button></div></div><div class="sidestat"><strong>Powered by Backboard.io</strong><br>Conversation threads + persistent memory help your tutor adapt to you.</div></aside><main class="main"><div class="top"><span class="eyebrow">YOUR PERSONAL LEARNING SPACE</span><span class="pill"><span class="dot"></span><span id="status">Checking connection</span></span></div><div id="error" role="alert" class="error hidden"></div><div class="hero"><h1>Make learning <span class="gradient">stick.</span></h1><p>Meet the study partner that remembers where you struggled, asks the right questions, and turns uncertainty into understanding.</p></div><div class="metrics"><div class="metric"><span>Questions attempted</span><b id="attempts">0</b></div><div class="metric"><span>Accuracy</span><b id="accuracy">0%</b></div><div class="metric"><span>Study topic</span><b id="currentTopic" style="font-size:18px;overflow-wrap:anywhere">Not set</b></div></div><div class="grid"><section class="panel" id="tutor"><h2>✧ Your AI tutor</h2><p class="sub">Ask anything. RecallForge remembers what matters between study sessions.</p><label class="label" for="topic">What are you studying?</label><input id="topic" maxlength="90" value="Cell biology" placeholder="e.g. Cell biology"><div class="chips"><button class="chip" data-topic="Cell biology">Cell biology</button><button class="chip" data-topic="Calculus">Calculus</button><button class="chip" data-topic="World history">World history</button><button class="chip" data-topic="Python programming">Python programming</button></div><label class="label" for="message">Ask your tutor</label><textarea id="message" maxlength="1400" placeholder="Explain something confusing, or ask what to focus on next..."></textarea><div class="row" style="margin-top:12px"><button class="btn" id="send">Ask RecallForge ↗</button><button class="btn secondary" id="new">↺ New session</button></div><div class="output" id="output" aria-live="polite"></div><p class="note">Starting a new session opens a fresh conversation and keeps your Backboard tutor memory.</p></section><section class="panel" id="quizPanel"><h2>◈ Active recall</h2><p class="sub">Turn passive reading into lasting knowledge, one question at a time.</p><p class="label" id="difficulty">Practice intensity</p><div class="row" role="group" aria-labelledby="difficulty"><button class="chip" data-level="beginner" aria-pressed="false">Beginner</button><button class="chip" data-level="intermediate" aria-pressed="true">Intermediate</button><button class="chip" data-level="advanced" aria-pressed="false">Advanced</button></div><button class="btn" id="generate" style="width:100%;margin-top:18px">Generate a question →</button><div class="quiz hidden" id="quiz"><div class="tiny">YOUR QUESTION</div><p id="question"></p><div class="answers" id="answers"><button data-option="A">A</button><button data-option="B">B</button><button data-option="C">C</button><button data-option="D">D</button></div><button class="btn secondary" id="check" style="margin-top:14px;width:100%">Check answer</button><div id="feedback" role="status" class="feedback hidden"></div></div><p class="note">After a few questions, start a new session and ask your tutor what to review.</p></section></div><div class="footer">RecallForge · Built for DeltaHacks × Backboard.io · Your study, remembered.</div></main></div><script>
+const $ = (id) => document.getElementById(id);
+const topic = $('topic');
+const message = $('message');
+const levelButtons = [...document.querySelectorAll('[data-level]')];
+const answerButtons = [...document.querySelectorAll('[data-option]')];
+const requestButtons = [$('send'), $('new'), $('generate'), $('check')];
+
+const state = {
+  threadId: null,
+  assistantId: localStorage.getItem('rf_assistant') || null,
+  difficulty: 'intermediate',
+  quizToken: null,
+  choice: null,
+  attempts: Number(localStorage.getItem('rf_attempts') || 0),
+  correct: Number(localStorage.getItem('rf_correct') || 0),
+  pending: false
+};
+
+function updateStats() {
+  $('attempts').textContent = state.attempts;
+  $('accuracy').textContent = state.attempts
+    ? Math.round(100 * state.correct / state.attempts) + '%'
+    : '0%';
+  $('currentTopic').textContent = topic.value.trim() || 'Not set';
+}
+
+function updateControls() {
+  for (const button of requestButtons) button.disabled = state.pending;
+  $('check').disabled = state.pending || !state.quizToken || !state.choice;
+  for (const button of answerButtons) button.disabled = state.pending || !state.quizToken;
+  for (const button of levelButtons) button.disabled = state.pending;
+  for (const button of document.querySelectorAll('[data-topic]')) button.disabled = state.pending;
+  topic.disabled = state.pending;
+  message.disabled = state.pending;
+}
+
+function showError(text) {
+  $('error').textContent = text;
+  $('error').classList.remove('hidden');
+}
+
+function clearQuiz() {
+  state.quizToken = null;
+  state.choice = null;
+  $('quiz').classList.add('hidden');
+  $('feedback').classList.add('hidden');
+  for (const button of answerButtons) {
+    button.classList.remove('chosen');
+    button.setAttribute('aria-pressed', 'false');
+  }
+  updateControls();
+}
+
+function topicChanged() {
+  clearQuiz();
+  updateStats();
+}
+
+async function api(path, body) {
+  const response = await fetch(path, {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      ...body,
+      topic: topic.value.trim(),
+      thread_id: state.threadId,
+      assistant_id: state.assistantId
+    })
+  });
+  const result = await response.json().catch(() => ({error: 'Invalid server response.'}));
+  if (result.thread_id) state.threadId = result.thread_id;
+  if (result.assistant_id) {
+    state.assistantId = result.assistant_id;
+    localStorage.setItem('rf_assistant', state.assistantId);
+  }
+  if (!response.ok) throw new Error(result.error || 'Request failed. Try again.');
+  return result;
+}
+
+async function busy(button, action) {
+  if (state.pending) return;
+  state.pending = true;
+  $('error').classList.add('hidden');
+  const label = button.textContent;
+  button.textContent = 'Thinking…';
+  updateControls();
+
+  try {
+    await action();
+  } catch (error) {
+    showError(error.message);
+  } finally {
+    state.pending = false;
+    button.textContent = label;
+    updateControls();
+  }
+}
+
+topic.addEventListener('input', topicChanged);
+for (const button of document.querySelectorAll('[data-topic]')) {
+  button.onclick = () => {
+    topic.value = button.dataset.topic;
+    topicChanged();
+  };
+}
+
+for (const button of levelButtons) {
+  button.onclick = () => {
+    state.difficulty = button.dataset.level;
+    for (const option of levelButtons) option.setAttribute('aria-pressed', String(option === button));
+  };
+}
+
+$('send').onclick = () => busy($('send'), async () => {
+  const text = message.value.trim();
+  if (!text) throw new Error('Type a question first.');
+  const reply = await api('/api/tutor', {message: text});
+  $('output').textContent = 'You: ' + text + '\n\nRecallForge: ' + reply.content;
+  message.value = '';
+});
+
+$('new').onclick = () => {
+  state.threadId = null;
+  message.value = '';
+  clearQuiz();
+  $('error').classList.add('hidden');
+  $('output').textContent = state.assistantId
+    ? 'New session started. Your tutor can still use Backboard memory.'
+    : 'New session started. Ask your tutor a question to begin.';
+};
+
+$('generate').onclick = () => busy($('generate'), async () => {
+  clearQuiz();
+  const result = await api('/api/quiz', {difficulty: state.difficulty});
+  state.quizToken = result.quiz_token;
+  $('question').textContent = result.question;
+  $('quiz').classList.remove('hidden');
+});
+
+for (const button of answerButtons) {
+  button.onclick = () => {
+    state.choice = button.dataset.option;
+    for (const option of answerButtons) {
+      option.classList.toggle('chosen', option === button);
+      option.setAttribute('aria-pressed', String(option === button));
+    }
+    updateControls();
+  };
+}
+
+$('check').onclick = () => busy($('check'), async () => {
+  const result = await api('/api/grade', {quiz_token: state.quizToken, choice: state.choice});
+  state.quizToken = null;
+  state.attempts++;
+  state.correct += Number(result.correct);
+  localStorage.setItem('rf_attempts', state.attempts);
+  localStorage.setItem('rf_correct', state.correct);
+  updateStats();
+  $('feedback').textContent = (result.correct ? '✓ Correct!' : 'Correct answer: ' + result.answer)
+    + '\n\n' + result.explanation;
+  $('feedback').classList.remove('hidden');
+});
+
+updateStats();
+updateControls();
+fetch('/health')
+  .then((response) => response.json())
+  .then((result) => {
+    $('status').textContent = result.backboard_configured ? 'Backboard key configured' : 'Backboard key needed';
+    document.querySelector('.pill').classList.toggle('configured', result.backboard_configured);
+  })
+  .catch(() => { $('status').textContent = 'Server unavailable'; });
+</script></body></html>
