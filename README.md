@@ -2,6 +2,14 @@
 
 RecallForge is a local AI study coach built for [DeltaHacks × Backboard.io](https://deltahacksxbackboard.devpost.com/). It uses a student's earlier mistakes to help choose what to practice next.
 
+## Live demo
+
+[Watch the 44-second walkthrough](https://raw.githubusercontent.com/Kyaw-Min-lwin/RecallForge/main/media/RecallForge-demo.mp4). It shows a live tutor response, a graded quiz, and Backboard recalling the exact study cue in a fresh conversation.
+
+| Tutor | Quiz feedback | Cross-session memory |
+| --- | --- | --- |
+| [![Live tutor](media/01-live-tutor.jpg)](media/01-live-tutor.jpg) | [![Graded quiz](media/02-quiz-feedback.jpg)](media/02-quiz-feedback.jpg) | [![Fresh conversation recalls the study cue](media/03-fresh-session.jpg)](media/03-fresh-session.jpg) |
+
 ## Run locally
 
 Use Python 3.10 or newer. Get a key from [Backboard](https://app.backboard.io/) under **Settings → API Keys**. Set `BACKBOARD_API_KEY` in your local `.env` file and keep it private.
